@@ -25,6 +25,7 @@ export default function Listed() {
       <Section9 />
       <Section10 />
       <Section11 />
+      {/* min-[1640px]:max-w-[1640px] w-full  mx-auto p-7 lg:p-10 xl:p-20 py-8 space-y-8 */}
       
     </div>
   );
