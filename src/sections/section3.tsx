@@ -1,9 +1,9 @@
 import { CalendarRange, Moon, Smile, Users } from "lucide-react";
 import globe2 from "@/assets/globe-2.svg";
 
-export default function Section3(){
+export default function Section3() {
 
-     const section3 = [
+  const section3 = [
     { icon: <Moon />, value: "47,006", label: "total nights booked" },
     {
       icon: <CalendarRange />,
@@ -13,25 +13,26 @@ export default function Section3(){
     { icon: <Smile />, value: "94%", label: "guest satisfaction rate" },
     { icon: <Users />, value: "610,653", label: "Wanderers and counting" },
   ];
-    return (
-        <div className="relative sm:w-[80%] m-auto md:-mt-50 mt-10">
-        <img
-          src={globe2}
-          alt="globe"
-          className="w-full h-[400px] md:h-[600px] object-cover "
-        />
-        <div className="absolute bottom-0 bg-gradient-to-b from-transparent to-[#000] h-full w-full"></div>
-        <div className="absolute flex justify-between items-end h-full w-full  bottom-0 left-0 p-4 px-8">
-          <div className=" w-full grid  grid-cols-2 sm:grid-cols-4 gap-8">
-            {section3.map((item, index) => (
-              <div key={index}>
-                <span className="">{item.icon}</span>
-                <p className="font-body mt-4 text-2xl font-medium">{item.value}</p>
-                <p className="font-body text-white/50">{item.label}</p>
-              </div>
-            ))}
-          </div>
+  return (
+    <div className="relative w-full md:-mt-50 lg:-mt-60 xl:-mt-72 2xl:-mt-80 h-[600px]  ">
+      <img
+        src={globe2}
+        alt="globe"
+        className="w-full h-[600px] object-cover "
+      />
+      <div className="absolute bottom-0 bg-gradient-to-b from-[#0a0b0b78] via-[#0404045f] to-[#000000] h-full w-full"></div>
+      <div className="absolute bottom-8  min-[1640px]:max-w-[1640px] w-full  mx-auto px-6 md:px-16 xl:px-32  ">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+          {section3.map((item, index) => (
+            <div key={index} className="flex flex-col text-start  items-start space-y-2">
+              <span className="text-white text-3xl">{item.icon}</span>
+              <p className="font-body mt-2 text-2xl font-medium text-white">{item.value}</p>
+              <p className="font-body text-white/80 text-sm">{item.label}</p>
+            </div>
+          ))}
         </div>
       </div>
-    )
+
+    </div>
+  )
 }
