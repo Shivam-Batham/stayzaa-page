@@ -32,13 +32,13 @@ export default function Section11() {
           marketing engine — all while maintaining your operational
           independence.
         </p>
-      </div>
 
         {/* CTA Button */}
         <Button className="mt-4 z-[999] bg-white rounded-md text-md text-black px-6 h-12 flex gap-0 font-bold font-body tracking-[0px] w-full md:w-fit">
           <p className=" ">Learn more about Stayzaa Listed</p>
           <ArrowRight className="" />
         </Button>
+      </div>
       </div>
     </section>
   );
