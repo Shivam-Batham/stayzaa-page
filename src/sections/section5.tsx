@@ -25,22 +25,22 @@ export default function Section5(){
     },
   ];
     return (
-        <section className="md:mt-30 lg:mt-5 text-white py-16 max-md:px-4  md:w-[80%] lg:px-20 m-auto">
+        <section className="max-w-[1440px] mx-auto px-5 py-10 md:px-16 md:py-20 xl:px-20">
         {/* Heading */}
-        <div className=" sm:mx-auto  lg:text-left">
-          <p className="uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-body font-medium">
+        <div className="mb-12 space-y-4">
+          <p className="uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
             THE THESIS
           </p>
-          <h2 className="text-[44px] md:text-5xl font-bold mt-2 font-headline tracking-tight leading-tight ">
+          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:leading-[3.75rem] text-balance md:mr-20 !block font-bold xl:text-[56px] text-start">
             Why Stayzaa works
           </h2>
-          <p className="text-lg text-[#cecece] mt-4 leading-tight font-body">
+          <p className="mt-6 text-base text-[#d9d9d9]">
             Stayzaa has verticalized the traditionally fragmented components of
             the travel ecosystem into one unified experience.
           </p>
         </div>
 
-        <div className="invisible sm:visible flex items-center md:p-12 mx-40 font-body">
+        <div className="mx-auto my-0 hidden max-w-[calc(410px*3+24px*2)] items-center justify-center gap-x-4 lg:flex">
           <span className="m-4 bg-[#ffffff40] flex h-[42px] w-[42px] items-center justify-center rounded-full text-xl font-semibold ">
             1
           </span>
@@ -55,25 +55,25 @@ export default function Section5(){
         </div>
         {/* section 7 */}
         {/* cards */}
-        <div className="flex lg:flex-row flex-col md:flex-col  lg:w-full md:m-auto md:max-w-[395px] lg:max-w-full   -mt-10 sm:mt-0 items-center gap-5 place-content-center">
+        <div className="mt-6 flex max-w-[calc(410px*3+24px*2)] flex-col items-center justify-center gap-6 md:gap-y-10 lg:mx-auto lg:flex-row lg:justify-start">
           {section5.map((card, index) => (
             <div
               key={index}
-              className="h-fit w-full max-w-[410px] md:max-w-full overflow-hidden rounded-2xl"
+              className="bg-secondary-100 h-fit w-full max-w-[410px] grow overflow-hidden rounded-2xl bg-[#171717]"
             >
               <img
                 src={card.img}
                 alt=""
-                className="animate-fade-in duration-300 w-full h-56 md:h-64 object-cover"
+                className="relative h-[220px] w-full"
               />
-              <div className="bg-[#ffffff40]/25 min-h-[calc(100%-220px)] space-y-2 p-6">
-                <h6 className=" whitespace-nowrap text-[10px] font-medium text-[#bdbdbd] uppercase tracking-[2px] font-body">
+              <div className="min-h-[calc(100%-220px)] space-y-2 p-6">
+                <h6 className=" uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
                   {card.tag}
                 </h6>
-                <h3 className="mt-0 text-start text-xl font-medium font-body">
+                <h3 className="mt-0 text-start text-xl font-medium">
                   {card.title}
                 </h3>
-                <p className="font-body text-[#cecece]">{card.desc}</p>
+                <p className="mt-2 text-base text-[#d9d9d9] tracking-[0.75px]">{card.desc}</p>
               </div>
             </div>
           ))}

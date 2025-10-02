@@ -59,7 +59,7 @@ export default function Section7() {
           and take it to the next level with our new offering.
         </p>
       </div>
-      <div className="flex max-w-screen-xl mt-20 flex-wrap justify-center !gap-6 md:mx-auto">
+      <div className="flex max-w-[1440px] mt-20 flex-wrap justify-center !gap-6 md:mx-auto">
         {section7.map((i) => (
           <div className="w-full overflow-hidden rounded-2xl md:max-w-[300px] lg:max-w-[410px] theme-light:border theme-light:border-default">
             <img

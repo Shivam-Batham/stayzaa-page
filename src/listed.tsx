@@ -13,7 +13,7 @@ import Section11 from "./sections/section11";
 export default function Listed() {
   
   return (
-    <div className="w-full pt-6 bg-[#0c0c0c] text-white pb-20 overflow-hidden">
+    <div className="w-full  bg-[#0c0c0c] text-white pb-20 overflow-hidden">
       <Section1 />
       <Section2 />
       <Section3 />
