@@ -1,5 +1,4 @@
 import logo from ".././assets/Stayzaa-brand-logo.svg";
-import call from ".././assets/call.svg";
 import stayzaamapIcon from ".././assets/stayzaa_map_icon 1.svg";
 import { ArrowRight, Phone } from "lucide-react";
 import rec2 from "@/assets/rec2.svg";
