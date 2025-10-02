@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import houseWander from "@/assets/houseWander.jpg";
 
