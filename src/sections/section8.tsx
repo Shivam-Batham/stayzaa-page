@@ -1,11 +1,9 @@
-
 import img9 from "@/assets/image9.png";
 import img10 from "@/assets/image10.png";
 import img11 from "@/assets/image11.png";
 
-export default function Section8(){
-
-    const section8 = [
+export default function Section8() {
+  const section8 = [
     {
       img: img9,
       title: "Tour video",
@@ -22,30 +20,38 @@ export default function Section8(){
       alt: "phone",
     },
   ];
-    return (<section className=" text-white sm:py-16  sm:w-[80%] max-md:px-4 m-auto">
-        <div className=" mx-auto text-center lg:text-center">
-          <h6 className="uppercase text-[10px] tracking-[2px] font-body text-[#bdbdbd] font-medium">
-            LAUNCHING WITH A BANG
-          </h6>
-          <h2 className="text-[44px] md:text-5xl font-bold my-2 font-headline tracking-tight leading-tight max-w-md px-18 md:px-8 m-auto">
-            Property Marketing Launch
-          </h2>
-          <p className="font-body text-base text-[#bdbdbd] mt-4">
-            Our launch and marketing strategy is to "overinvest" in <br />
-            content telling the story of your home and to make it famous <br />
-            with our growing network of travelers.
-          </p>
-        </div>
-        <div className="font-body flex flex-wrap md:grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4 sm:mt-20 p-4 max-md:justify-center">
-          {section8.map((i) => (
-            <div
-              className={`w-full overflow-hidden rounded-2xl md:max-w-[300px] lg:max-w-[320px] theme-light:border theme-light:border-default max-md:!w-48 `}
-            >
-              <img src={i.img} alt={i.alt} />
-              <p className="mt-2 text-center text-xl font-medium">{i.title}</p>
+  return (
+    <section className=" space-y-5 px-5 py-10 md:space-y-20 md:px-16 md:py-20 xl:px-20 max-w-[1440px] m-auto">
+      <div className="mx-auto space-y-4 text-center md:max-w-[465px]">
+        <h6 className="uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
+          LAUNCHING WITH A BANG
+        </h6>
+        <h2 className="mx-auto font-headline font-bold text-[2.5rem] leading-[3rem] xl:leading-[3.75rem] tracking-[-0.075rem] text-balance xl:text-[56px] !block md:px-14 lg:px-4">
+          Property Marketing Launch
+        </h2>
+
+        <p className="mt-6 text-base text-[#d9d9d9]">
+          Our launch and marketing strategy is to "overinvest" in <br />
+          content telling the story of your home and to make it famous <br />
+          with our growing network of travelers.
+        </p>
+      </div>
+      <ul className="flex flex-wrap justify-center gap-20 mt-20">
+        {section8.map((i, index) => (
+          <li key={index} className="w-fit text-center">
+            <div className="relative h-[375px] w-[182px] md:h-[461px] md:w-[224px] xl:h-[655px] xl:w-[318px]">
+              <img
+                src={i.img}
+                alt={i.alt}
+                className="h-full w-full object-contain"
+              />
             </div>
-          ))}
-        </div>
-      </section>
-)
+            <p className="mt-2 text-base font-medium whitespace-nowrap">
+              {i.title}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
 }
