@@ -55,7 +55,7 @@ export default function Section5(){
         </div>
         {/* section 7 */}
         {/* cards */}
-        <div className="flex sm:flex-row flex-col -mt-10 sm:mt-0 items-center gap-5 place-content-center">
+        <div className="flex lg:flex-row flex-col md:flex-col  lg:w-full md:m-auto md:max-w-[395px] lg:max-w-full   -mt-10 sm:mt-0 items-center gap-5 place-content-center">
           {section5.map((card, index) => (
             <div
               key={index}
