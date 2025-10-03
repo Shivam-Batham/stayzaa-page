@@ -34,7 +34,7 @@ export default function Section9() {
         </div>
       </div>
 
-      <div className="mx-auto my-0 flex w-full max-w-screen-xl flex-col items-center gap-y-10 lg:flex-row">
+      <div className="mx-auto my-0 flex w-full max-w-[1440px] flex-col items-center gap-y-10 lg:flex-row">
         {section9.map((i, index) => (
           <div
             key={index}
@@ -45,7 +45,7 @@ export default function Section9() {
               className={`
           relative flex h-[200px] w-[calc(100vw-40px)] max-w-[350px] items-center justify-center 
           md:h-[300px] md:max-w-[450px] min-[1500px]:h-[360px] min-[1500px]:max-w-[600px]
-          order-3 ${index % 2 !== 0 ? "md:order-1" : ""}
+          order-3 ${index % 2 !== 0 ? "lg:order-1" : ""}
         `}
               src={i.img}
               alt={i.alt}
@@ -54,7 +54,7 @@ export default function Section9() {
             {/* Text */}
             <div
               className={`max-w-[457px] flex flex-col text-center ${
-                index % 2 !== 0 ? "md:order-2" : ""
+                index % 2 !== 0 ? "lg:order-2" : ""
               }`}
             >
               <p className="text-4xl font-medium order-1">"{i.title}"</p>
