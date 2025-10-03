@@ -21,15 +21,17 @@ export default function Section3() {
         className="w-full h-[600px] object-cover "
       />
       <div className="absolute bottom-0 bg-gradient-to-b from-[#0a0b0b78] via-[#0404045f] to-[#000000] h-full w-full"></div>
-      <div className="absolute bottom-8  min-[1640px]:max-w-[1640px] w-full  mx-auto px-6 md:px-16 xl:px-32  ">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
-          {section3.map((item, index) => (
-            <div key={index} className="flex flex-col text-start  items-start space-y-2">
-              <span className="text-white text-3xl">{item.icon}</span>
-              <p className="font-body mt-2 text-2xl font-medium text-white">{item.value}</p>
-              <p className="font-body text-white/80 text-sm">{item.label}</p>
-            </div>
-          ))}
+      <div className="absolute bottom-8 w-full  mx-auto   ">
+        <div className="  max-w-[1440px] mx-auto px-5 py-10 md:px-16 md:py-20  xl:px-20">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            {section3.map((item, index) => (
+              <div key={index} className="flex flex-col text-start  items-start space-y-2">
+                <span className="text-white text-3xl">{item.icon}</span>
+                <p className="font-body mt-2 text-2xl font-medium text-white">{item.value}</p>
+                <p className="font-body text-white/80 text-sm">{item.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
