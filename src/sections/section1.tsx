@@ -163,7 +163,7 @@ export default function Section1() {
         {section1.map((i) => (
           <div
             key={i.key}
-            className="flex flex-col gap-y-5 lg:flex-row lg:gap-x-5"
+            className="flex flex-col  lg:flex-row lg:gap-x-5"
           >
             <img
               src={i.img}

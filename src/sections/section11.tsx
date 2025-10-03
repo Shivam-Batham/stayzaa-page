@@ -19,7 +19,7 @@ export default function Section11() {
       {/* Content */}
       <div className="mx-auto max-w-[1440px] px-5 md:px-16 lg:px-20">
         <div className=" relative z-10 max-w-[609px] space-y-6">
-          <h2 className="font-headline text-[2.5rem] leading-[3rem] xl:leading-[3.75rem] tracking-[-0.075rem] text-balance md:mr-20 xl:m-0 !block font-bold xl:text-[56px] text-start">
+          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance md:mr-20 xl:m-0 !block font-bold xl:text-[56px] text-start">
             Consider this a personal invitation to explore a partnership with
             Wander.
           </h2>

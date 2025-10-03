@@ -9,7 +9,7 @@ export default function Section4(){
           <p className="uppercase tracking-[2px] text-[10px] text-[#bdbdbd] font-medium font-body">
             Leading the way
           </p>
-          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:leading-[3.75rem] text-balance   font-bold xl:text-[56px] text-start">
+          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance   font-bold xl:text-[56px] text-start">
             We’re creating a new category
           </h2>
           <p className="text-base max-sm:w-[100%] text-white/90 mt-4 font-body">
