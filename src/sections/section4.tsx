@@ -3,13 +3,13 @@ import building from "@/assets/sec-4.jpg";
 
 export default function Section4(){
 
-    return (<section className=" text-white py-16 lg:p-20 max-md:w-full w-[80%] m-auto">
+    return (<section className=" max-w-[1440px] mx-auto px-5 py-10 md:px-16 md:py-20 xl:px-20">
         {/* Heading */}
-        <div className="sm:w-[60%] md:w-[80%] max-md:mx-4 sm:mx-0  lg:text-left">
+        <div className="sm:w-[60%] md:w-[80%] max-md:mx-4 sm:mx-0  lg:text-left space-y-4">
           <p className="uppercase tracking-[2px] text-[10px] text-[#bdbdbd] font-medium font-body">
             Leading the way
           </p>
-          <h2 className="max-sm:w-[60%] leading-none text-[44px] sm:text-5xl font-bold mt-4 font-headline tracking-tight">
+          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance   font-bold xl:text-[56px] text-start">
             We’re creating a new category
           </h2>
           <p className="text-base max-sm:w-[100%] text-white/90 mt-4 font-body">

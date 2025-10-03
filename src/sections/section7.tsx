@@ -50,7 +50,7 @@ export default function Section7() {
         <h6 className="uppercase text-center text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
           INTRODUCING...
         </h6>
-        <h2 className="font-headline text-[2.5rem] leading-[3rem] xl:leading-[3.75rem] tracking-[-0.075rem] text-balance mx-auto !block font-bold xl:text-[56px] text-center">
+        <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance mx-auto !block font-bold xl:text-[56px] text-center">
           Stayzaa Listed
         </h2>
         <p className="mt-6 text-base text-[#d9d9d9] text-center">
@@ -59,7 +59,7 @@ export default function Section7() {
           and take it to the next level with our new offering.
         </p>
       </div>
-      <div className="flex max-w-screen-xl mt-20 flex-wrap justify-center !gap-6 md:mx-auto">
+      <div className="flex max-w-[1440px] mt-20 flex-wrap justify-center !gap-6 md:mx-auto">
         {section7.map((i) => (
           <div className="w-full overflow-hidden rounded-2xl md:max-w-[300px] lg:max-w-[410px] theme-light:border theme-light:border-default">
             <img
