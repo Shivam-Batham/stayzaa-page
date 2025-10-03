@@ -4,9 +4,9 @@ import houseWander from "@/assets/houseWander.jpg";
 
 export default function Section11() {
   return (
-    <section className="relative sm:w-full mt-20 flex sm:items-center sm:px-20 sm:py-20">
+    <section className="relative py-10 md:py-20">
       {/* Background Image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 w-screen">
         <img
           src={houseWander}
           alt="Wander Partnership"
@@ -18,21 +18,24 @@ export default function Section11() {
       </div>
 
       {/* Content */}
-      <div className=" m-auto relative z-10 max-md:px-4 sm:max-w-3xl sm:px-6 lg:px-20 sm:mx-20 text-white flex flex-col">
-        <h2 className="text-[42px] md:text-5xl font-bold my-2 font-headline tracking-tight leading-tight">
+      <div className="mx-auto max-w-[1440px] px-5 md:px-16 lg:px-20">
+
+      <div className=" relative z-10 max-w-[609px] space-y-6">
+        <h2 className="font-headline text-[2.5rem] leading-[3rem] xl:leading-[3.75rem] tracking-[-0.075rem] text-balance md:mr-20 xl:m-0 !block font-bold xl:text-[56px] text-start">
           Consider this a personal invitation to explore a partnership with
           Wander.
         </h2>
-        <p className="font-body mt-6 text-base text-gray-200">
+        <p className="mt-6 text-base text-[#d9d9d9]">
           Elevate your portfolio by aligning with the world’s premier vacation
           rentals. With Wander Listed, you unlock luxury brand recognition,
           cutting-edge technology, a vast guest network and an unrivaled
           marketing engine — all while maintaining your operational
           independence.
         </p>
+      </div>
 
         {/* CTA Button */}
-        <Button className="my-4 z-[999] bg-white  w-73 rounded-md text-md  text-black p-6  flex  font-bold font-body tracking-[0px]">
+        <Button className="mt-4 z-[999] bg-white rounded-md text-md text-black px-6 h-12 flex gap-0 font-bold font-body tracking-[0px] w-full md:w-fit">
           <p className=" ">Learn more about Stayzaa Listed</p>
           <ArrowRight className="" />
         </Button>

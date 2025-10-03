@@ -147,9 +147,9 @@ export default function Section1() {
 
         {/* section 2 */}
 
-        <div className="relative mx-auto flex flex-col gap-10 px-2 py-10 md:flex-row md:justify-between md:px-16 lg:pb-[120px] lg:pt-0 xl:px-0 font-body">
+        <div className="relative   mx-auto flex flex-col gap-10 px-2 py-10 md:flex-row md:justify-between  lg:pb-[120px] lg:pt-0 xl:px-0 font-body">
           {section1.map((i) => (
-            <div key={i.key} className="md:flex z-50">
+            <div key={i.key} className="flex md:flex md:flex-col lg:flex-row z-50">
               <img
                 src={i.img}
                 alt="Increase profits"
