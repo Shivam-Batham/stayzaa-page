@@ -31,7 +31,7 @@ export default function Section5(){
           <p className="uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
             THE THESIS
           </p>
-          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:leading-[3.75rem] text-balance md:mr-20 !block font-bold xl:text-[56px] text-start">
+          <h2 className="font-headline text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance md:mr-20 !block font-bold xl:text-[56px] text-start">
             Why Stayzaa works
           </h2>
           <p className="mt-6 text-base text-[#d9d9d9]">
@@ -40,7 +40,7 @@ export default function Section5(){
           </p>
         </div>
 
-        <div className="mx-auto my-0 hidden max-w-[calc(410px*3+24px*2)] items-center justify-center gap-x-4 lg:flex">
+        <div className={`mx-auto my-0 hidden max-w-[calc(310px*3+24px*2)] items-center justify-center gap-x-4 lg:flex`}>
           <span className="m-4 bg-[#ffffff40] flex h-[42px] w-[42px] items-center justify-center rounded-full text-xl font-semibold ">
             1
           </span>

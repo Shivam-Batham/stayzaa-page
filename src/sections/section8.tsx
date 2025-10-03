@@ -26,7 +26,7 @@ export default function Section8() {
         <h6 className="uppercase text-[10px] tracking-[2px] text-[#bdbdbd] font-medium">
           LAUNCHING WITH A BANG
         </h6>
-        <h2 className="mx-auto font-headline font-bold text-[2.5rem] leading-[3rem] xl:leading-[3.75rem] tracking-[-0.075rem] text-balance xl:text-[56px] !block md:px-14 lg:px-4">
+        <h2 className="mx-auto font-headline font-bold text-[2.5rem] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] text-balance xl:text-[56px] !block md:px-14 lg:px-4">
           Property Marketing Launch
         </h2>
 
