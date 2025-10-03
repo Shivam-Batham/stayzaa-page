@@ -5,7 +5,7 @@ export default function Section4(){
 
     return (<section className=" max-w-[1440px] mx-auto px-5 py-10 md:px-16 md:py-20 xl:px-20">
         {/* Heading */}
-        <div className="sm:w-[60%] md:w-[80%] max-md:mx-4 sm:mx-0  lg:text-left space-y-4">
+        <div className="sm:w-[60%] md:w-[80%]    lg:text-left space-y-4">
           <p className="uppercase tracking-[2px] text-[10px] text-[#bdbdbd] font-medium font-body">
             Leading the way
           </p>
