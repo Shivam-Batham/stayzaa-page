@@ -22,7 +22,7 @@ export default function Section2() {
     { icon: <SunMedium />, label: "“Wow” factor" },
   ];
   return (
-    <div className="rounded-sm min-[1640px]:max-w-[1640px] w-full  mx-auto px-6 md:p-16 xl:p-32 py-8 space-y-8  grid grid-cols-1 gap-12 xl:grid-cols-10 mt-10 md:bg-gradient-to-b from-[#020408] via-[#0a0b0b] to-transparent relative z-10">
+    <div className="rounded-sm max-w-[1440px] mx-auto px-5 py-10 md:px-16 md:py-20 xl:px-20 w-full    space-y-8  grid grid-cols-1 gap-12 xl:grid-cols-10 mt-10 md:bg-gradient-to-b from-[#020408] via-[#0a0b0b] to-transparent relative z-10">
       <div className="   rounded shadow col-span-6 z-10 max-w-[600px] space-y-8 xl:max-w-[755px]">
         <p className="font-headline  text-[40px] leading-[3rem] tracking-[-0.075rem] xl:tracking-[-0.125rem] xl:leading-[3.75rem] xl:text-[56px]   text-balance mx-auto !block font-bold x  text-start ">
           Unlock your home’s full potential with Stayzaa.
